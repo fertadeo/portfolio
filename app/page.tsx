@@ -5,6 +5,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { Button } from "@nextui-org/button";
 
 export default function Home() {
 	return (
@@ -45,6 +46,7 @@ export default function Home() {
 						Get started by editing <Code color="primary">app/page.tsx</Code>
 					</span>
 				</Snippet>
+				<Button> Toca aqui </Button>
 			</div>
 		</section>
 	);
