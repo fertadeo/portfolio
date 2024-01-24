@@ -8,17 +8,19 @@ import { GithubIcon } from "@/components/icons";
 import { Button } from "@nextui-org/button";
 
 export default function Home() {
+
+	const clase1 = 'bg-sky-500 hover:bg-sky-700 ...'
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
 				<h1 className={title()}>Desarrollo&nbsp;</h1>
 				<h1 className={title({ color: "green" })}>Web&nbsp;</h1>
 				<br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
+				<h1 className={ `${title()} ${clase1} `}>
+					Realizo tu sitio web hecho a medida
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+					Sencillo, escalable, dinámico. 
 				</h2>
 			</div>
 
